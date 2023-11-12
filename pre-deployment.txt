@@ -1,0 +1,2 @@
+azd env set AZURE_RESOURCE_GROUP ai_poc
+azd env set AZURE_USE_APPLICATION_INSIGHTS true
