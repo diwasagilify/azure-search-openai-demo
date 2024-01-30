@@ -21,8 +21,8 @@ class ChatApproach(Approach, ABC):
     ASSISTANT = "assistant"
 
     query_prompt_few_shots = [
-        {"role": USER, "content": "How did crypto do last year?"},
-        {"role": ASSISTANT, "content": "Summarize Cryptocurrency Market Dynamics from last year"},
+        {"role": USER, "content": "How many days of PTO do we get?"},
+        {"role": ASSISTANT, "content": "Give details on the paid time off policy"},
         {"role": USER, "content": "What are my health plans?"},
         {"role": ASSISTANT, "content": "Show available health plans"},
     ]
@@ -43,7 +43,10 @@ class ChatApproach(Approach, ABC):
     Do not include cited source filenames and document names e.g info.txt or doc.pdf in the search query terms.
     Do not include any text inside [] or <<>> in the search query terms.
     Do not include any special characters like '+'.
-    If the question contains known abbreviations, expand them.
+    If the question contains known abbreviations, expand them in your search query using the following guidelines:
+        - Identify common HR-related abbreviations (e.g., PTO, FMLA, COBRA).
+        - Expand the abbreviation to its full form  (e.g., PTO to 'paid time off').
+        - If multiple expansions are possible, consider the context of the conversation to choose the most relevant one.
     If you cannot generate a search query, return just the number 0.
     """
 
