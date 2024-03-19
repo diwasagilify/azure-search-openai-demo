@@ -6,6 +6,7 @@ import { MsalProvider } from "@azure/msal-react";
 import { PublicClientApplication, EventType, AccountInfo } from "@azure/msal-browser";
 import { msalConfig, useLogin } from "./authConfig";
 
+import "./themes/agilify.css";
 import "./index.css";
 
 import Layout from "./pages/layout/Layout";

@@ -1,6 +1,6 @@
 .answerContainer {
     padding: 20px;
-    background: rgb(249, 249, 249);
+    background: var(--answer-container-bg);
     border-radius: 8px;
     box-shadow:
         0px 2px 4px rgba(0, 0, 0, 0.14),
@@ -32,7 +32,7 @@
 }
 
 .selected {
-    outline: 2px solid rgba(115, 118, 225, 1);
+    outline: 2px solid var(--answer-container-selected);
 }
 
 .citationLearnMore {
@@ -47,8 +47,8 @@
     text-align: center;
     border-radius: 4px;
     padding: 0px 8px;
-    background: #d1dbfa;
-    color: #123bb6;
+    background: var(--citation-highlight);
+    color: var(--citation-text);
     text-decoration: none;
     cursor: pointer;
 }
@@ -73,8 +73,8 @@
     text-align: center;
     border-radius: 4px;
     padding: 0px 8px;
-    background: #e8ebfa;
-    color: black;
+    background: var(--followup-bg);
+    color: var(--followup-text);
     font-style: italic;
     text-decoration: none;
     cursor: pointer;
@@ -102,8 +102,8 @@ sup {
     min-width: 14px;
     height: 14px;
     border-radius: 3px;
-    background: #d1dbfa;
-    color: #123bb6;
+    background: var(--citation-superscript-highlight);
+    color: var(--citation-superscript);
     text-decoration-color: transparent;
     outline: transparent solid 1px;
     cursor: pointer;
