@@ -16,6 +16,7 @@
 
     --green: #008C56;
     --green-light: #92B89C;
+    --green-lighter: #C5d8CA;
 
     --yellow: #E4B03F;
     --yellow-light: #F0D39B;
@@ -31,6 +32,15 @@
     /* pages/layout */
     --header-bg: var(--darkblue);
     --header-text: var(--grey-light);
+
+    /* components/AnalysisPanel */
+    --analysis-panel-bg: var(--grey-light);
+    --analysis-panel-border: var(--green);
+    --analysis-panel-bullet: var(--green);
+    --analysis-panel-bullet-bg: var(--green-lighter);
+    --analysis-panel-step: var(--base-text);
+    --analysis-panel-property-bg: var(--grey);
+    --analysis-panel-property: #202020;
 
     /* components/Answer */
     --answer-container-bg: #f9f9f9;
