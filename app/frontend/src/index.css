@@ -4,13 +4,14 @@
 
 html,
 body {
+    color: var(--base-text);
     height: 100%;
     margin: 0;
     padding: 0;
 }
 
 html {
-    background: #f2f2f2;
+    background: var(--base-background);
 
     font-family:
         "Segoe UI",

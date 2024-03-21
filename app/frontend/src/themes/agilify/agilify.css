@@ -1,0 +1,63 @@
+:root {
+    /* Brand Colors */
+    --blue: #64A1BA;
+    --blue-light: #AEC8D6;
+    --blue-lighter: #CCDDE5;
+
+    --darkblue: #224E79;
+    --darkblue-light: #858FAC;
+
+    --grey: #BEBCBC;
+    --grey-medium: #e5e5e5;
+    --grey-light: #f2f2f2;
+
+    --orange: #E36B36;
+    --orange-light: #F0AF8B;
+
+    --green: #008C56;
+    --green-light: #92B89C;
+    --green-lighter: #C5d8CA;
+
+    --yellow: #E4B03F;
+    --yellow-light: #F0D39B;
+
+
+    /* global */
+    --base-background: url("assets/handmadepaper.png");
+    --base-text: var(--darkblue);
+
+    /* pages/chat */
+    --chat-input-background: var(--grey-very-light);
+
+    /* pages/layout */
+    --header-bg: var(--darkblue);
+    --header-text: var(--grey-light);
+
+    /* components/AnalysisPanel */
+    --analysis-panel-bg: var(--grey-light);
+    --analysis-panel-border: var(--green);
+    --analysis-panel-bullet: var(--green);
+    --analysis-panel-bullet-bg: var(--green-lighter);
+    --analysis-panel-step: var(--base-text);
+    --analysis-panel-property-bg: var(--grey);
+    --analysis-panel-property: #202020;
+
+    /* components/Answer */
+    --answer-container-bg: #f9f9f9;
+    --answer-container-selected: var(--green);
+    --citation-text: var(--base-text);
+    --citation-highlight: var(--blue-light);
+    --followup-bg: #e8ebfa;
+    --followup-text: black;
+    --citation-superscript: var(--base-text);
+    --citation-superscript-highlight: var(--blue-lighter);
+
+    /* components/Example */
+    --example-bg: var(--grey-medium);
+    --example-text: var(--base-text);
+    --example-hover: var(--darkblue-light);
+
+    /* components/UserChatMessage */
+    --user-msg-background: var(--blue-lighter);
+    --user-msg-text: var(--base-text);
+}
