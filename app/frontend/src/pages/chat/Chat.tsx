@@ -1,7 +1,7 @@
 import { useRef, useState, useEffect } from "react";
 import { Checkbox, Panel, DefaultButton, TextField, SpinButton } from "@fluentui/react";
 import { Sparkle16Filled, Sparkle28Filled, SparkleFilled } from "@fluentui/react-icons";
-import mainLogo from "../../assets/agilify_buttefly.png";
+import mainLogo from "../../themes/agilify/assets/agilify_butterfly.png";
 import readNDJSONStream from "ndjson-readablestream";
 
 import styles from "./Chat.module.css";
